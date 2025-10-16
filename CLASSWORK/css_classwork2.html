@@ -4,17 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+
 <style>
-div{
-    background-color: lightgrey;
-  width: 500px;
-  border: 15px solid green;
-  padding: 100px;
-  margin: 20px;
+.outer-box{
+    border: 10px solid #2c3e50;
+    padding: 20px;
+    background-color: #ecf0f1;
+    width: 300px;
+    margin: 50px auto;
 }
-</style>
+.middle-box{
+    border: 6px solid #e74c3c;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+.inner-box{
+    border: 10px solid #e4ea3c;
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    width: 200px;
+    color: #333;
+}
+</style> 
+</head>
 <body>
-    <div>Box Model</div>
+    <div class="outer-box">
+        <div class="middle-box">
+            <div class="inner-box">
+                <p>Box Model</p>
+                </div>
+                </div>
+                </div>
 </body>
 </html>
